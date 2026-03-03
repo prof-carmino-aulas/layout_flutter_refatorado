@@ -82,8 +82,19 @@ class BodyConteudo extends StatelessWidget {
   }
 }
 ```
+## Alteração realizada no BodyConteudo
+
+### Diferença aplicada
+
+```diff
+- CardConteudo(),
++ Expanded(
++   child: CardConteudo(),
++ ),
 
 - CardConteudo(),
 + Expanded(
 +   child: CardConteudo(),
 + ),
+
+```
