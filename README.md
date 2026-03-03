@@ -70,6 +70,12 @@ class BodyConteudo extends StatelessWidget {
           const SizedBox(height: 20),
           <span style="color:green">
           CardConteudo(),
+```diff
+// ALTERAÇÃO: inclusão de Expanded para controle de layout
+- CardConteudo(),
++ Expanded(
++   child: CardConteudo(),
++ ),
           </span>
         ],
       ),
